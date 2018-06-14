@@ -26,7 +26,7 @@
     var color = d3.scale.category10();
 
     // Add the svg canvas
-    var svg = d3.select("#piePlot")
+    var svg = d3.select("body")
         .append("svg:svg")
         .attr("fill", "white")
           .data([data])
